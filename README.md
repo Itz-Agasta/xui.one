@@ -22,3 +22,21 @@ This script will work on Ubuntu and probably other distros of the same families,
    > 3. cd xui.one
    > 4. chmod +x install.sh
    > 5. ./install.sh
+
+> [!TIP]
+   > **🐳 Docker Setup:**
+   >  
+   > 1. Clone this repo and open it in your editor.
+   >    
+   > 2. Run the following command in the terminal to build an image:
+   >```bash
+   >docker build -t <your-image-name> .
+   >```
+   > 
+   > 3. Once the image is built, create a container and start it up with:
+   >```bash
+   >docker run -it --name <your-container-name> <your-image-name>
+   >```
+
+
+
